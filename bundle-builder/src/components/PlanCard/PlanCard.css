@@ -1,0 +1,39 @@
+.plan-card{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.plan-card-title-container{
+    display: flex;
+    gap:3px;
+
+}
+.plan-card-img{
+    height:20px;
+    width:23px;
+}
+
+.plan-card-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.plan-card-oldprice{
+    font-size: 14px;
+    font-weight: 400;
+    color: #6F7882;
+    text-decoration: line-through;
+}
+
+
+.plan-card-newprice{
+    font-size: 14px;
+    font-weight: 400;
+    color: #4E2FD2;
+}
+
+.plan-card-price-container{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "category": "sensors",
+    "title": "Wyze Sense Motion Sensor",
+    "description": "Get instant alerts when doors or windows open.",
+    "image": "/media/sensor1.png",
+    "oldprice": 59.98,
+    "newprice": null,
+    "discount": null,
+    "variants": ["White", "Black"],
+    "variant_images": ["/media/sensor1.png", "/media/sensor2.png"]
+  },
+  {
+    "category": "sensors",
+    "title": "Wyze Sense Hub (Required)",
+    "description": "Detect movement indoors with adjustable sensitivity.",
+    "image": "/media/sensor2.png",
+    "oldprice": 29.92,
+    "newprice": 0,
+    "discount": 100,
+    "variants": ["White"],
+    "variant_images": ["/media/sensor2.png"]
+  }
+]

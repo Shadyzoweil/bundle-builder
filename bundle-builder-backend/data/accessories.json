@@ -1,0 +1,13 @@
+[
+  {
+    "category": "accessories",
+    "title": "Wyze MicroSD Card (256GB)",
+    "description": "Store weeks of continuous video locally on your Wyze Cam.",
+    "image": "/media/accessory1.png",
+    "oldprice": 20.98,
+    "newprice": null,
+    "discount": null,
+    "variants": ["128GB"],
+    "variant_images": ["/media/accessory1.png"]
+  }
+]

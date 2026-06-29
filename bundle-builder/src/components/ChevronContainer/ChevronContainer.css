@@ -1,0 +1,27 @@
+.chevron-icon{
+    max-width: 12px;
+    height: 12px;
+}
+
+.chevron-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.chevron-content{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 3px;
+    padding: 20px 15px 20px 15px;
+    border-top: 0.5px solid #1F1F1F;
+    border-bottom: 0.5px solid #1F1F1F;
+}
+
+.chevron-title{
+    font-size: 22px;
+    font-weight: 400;
+}

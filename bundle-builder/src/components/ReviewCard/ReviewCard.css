@@ -1,0 +1,232 @@
+.review-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 399px;
+    background: #EDF4FF;
+    border-radius: 10px;
+    padding: 1%;
+}
+@media(max-width:768px){
+    .review-card{
+       
+        max-width: 100%;
+        height: fit-content;
+    }
+}
+
+
+.review-text{
+    color:#484848;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+.review-card-inside{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 20px 31px 20px;
+    gap: 10px;}
+   
+
+.review-card-title-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.review-card-products-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.review-category{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #CED6DE;
+    gap:12px;
+}
+
+.review-category-heading{
+    font-size: 12px;
+    font-weight: 400;
+    color: #A8B2BD;
+    margin-top: 14px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.review-total-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid #CED6DE;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1F1F1F;
+}
+
+.review-empty{
+    font-size: 14px;
+    color: #575757;
+    margin-top: 12px;
+}
+
+.review-title{
+    font-size: 22px;
+    color: #1F1F1F;
+    font-family: 'Gilroy SemiBold', Gilroy, sans-serif;
+    font-weight: normal;
+}
+
+.review-subtitle{
+    font-size: 14px;
+    font-family: 'Gilroy Medium', Gilroy, sans-serif;
+    font-weight: normal;
+    color: #1F1F1FBF;
+}
+
+.review-total-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 4px;
+}
+.review-badge-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.review-total{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 145px;
+    align-items: flex-end;
+}
+
+.review-total-inside{
+    display: flex;
+    gap: 8px;
+    align-items:center;
+}
+
+.guanrantee-container{
+    display: flex;
+    border-radius: 3px;
+    background: #4E2FD2;
+    padding: 5px 8px;
+    max-width: fit-content;
+
+}
+
+.guanrantee-text{
+    font-size: 12px;
+    color: #FFFFFF;
+    font-family: 'Gilroy Medium', Gilroy, sans-serif;
+    font-weight: 400;
+}
+
+.review-total-before{
+    font-size: 18px;
+    font-family: 'Gilroy SemiBold', Gilroy, sans-serif;
+    font-weight: 400;
+    color: #6F7882;
+    text-decoration: line-through;
+}
+
+.review-total-after{
+    font-size: 24px;
+    font-family: 'Gilroy Bold', Gilroy, sans-serif;
+    font-weight: 400;
+    color: #4E2FD2;
+}
+
+.congrats-text{
+    font-size: 12px;
+    color:#0AA288;
+    font-family: 'Gilroy SemiBold', Gilroy, sans-serif;
+   
+}
+
+.review-button{
+    width: 100%;
+    background-color:#4E2FD2;
+    
+    height:48px;
+    padding:13px 16px;
+    border:none;
+    border-radius: 4px;
+}
+
+.review-button-text{
+    color: white;
+    font-size: 16px;
+    font-weight:700;
+    
+
+}
+
+.shipping-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 16px;
+    min-height: 41px;
+    padding-top:15px;
+    border-top: 1px solid #CED6DE;
+}
+.shipping-container-inside{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+    min-width: 0;
+}
+
+.shipping-container-price{
+    display: flex;
+    flex-direction: column;
+}
+
+.shipping-title{
+    font-size: 14px;
+    font-weight: 400;
+    color: #0B0D10;
+}
+
+.save-system-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.save-system-text{
+    font-size: 14px;
+    color:#484848;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.save-system-confirmation{
+    font-size: 14px;
+    color: #1a7f37;
+    font-weight: 500;
+}

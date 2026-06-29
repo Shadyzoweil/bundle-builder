@@ -1,0 +1,125 @@
+.review-product-card{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #CED6DE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.review-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 16px;
+    min-height: 41px;
+}
+
+.review-product-main {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+    min-width: 0;
+}
+
+.review-product-counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.review-product-text{
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.review-product-title{
+    font-size: 14px;
+    letter-spacing: 0.5%;
+    flex: 1;
+    min-width: 0;
+    font-family: 'Gilroy Medium', Gilroy, sans-serif;
+    color: #0B0D10;
+    font-weight: 400;
+}
+
+.review-product-variant{
+    font-size: 12px;
+    color: #575757;
+}
+.review-product-total{
+    font-size: 14px;
+    line-height: 16px;
+    color:#4E2FD2;
+    font-weight: 400;
+    flex-shrink: 0;
+}
+
+.review-product-total-old{
+    font-size: 14px;
+    line-height: 16px;
+    color: #6F7882;
+    text-decoration: line-through;
+    font-weight: 400;
+    
+}
+
+.review-img{
+    width: 41px;
+    height: 41px;
+    object-fit: cover;
+    display: block;
+    background: white;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.counter-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    border: 2px solid #E6EBF0;
+}
+
+.review-plan-toggle {
+    padding: 4px 10px;
+    border-radius: 4px;
+    background: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 2px solid #E6EBF0;
+    flex-shrink: 0;
+}
+
+
+.review-counter-number{
+    font-size: 14px;
+    font-family: 'Gilroy SemiBold', Gilroy, sans-serif;
+    font-weight: 400;
+    color: #0B0D10;
+}
+
+.review-product-total-container{
+    display: flex;
+    flex-direction: column;
+}
