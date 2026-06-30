@@ -30,6 +30,7 @@ Run the **backend** and **frontend** in two terminals.
 
 
 ```bash
+cd bundle-builder
 cd bundle-builder-backend
 python3 -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
@@ -41,8 +42,8 @@ uvicorn main:app --reload --port 8000
 
 ---
 2. Frontend
-
 cd bundle-builder
+cd bundle-builder-frontend
 npm install
 npm run dev
 
