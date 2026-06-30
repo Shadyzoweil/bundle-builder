@@ -11,7 +11,7 @@ SENSORS_FILE = BASE_DIR / "data" / "sensors.json"
 PLANS_FILE = BASE_DIR / "data" / "plans.json"
 ACCESSORIES_FILE = BASE_DIR / "data" / "accessories.json"
 SHIPPING_FILE = BASE_DIR / "data" / "shipping.json"
-ASSETS_DIR = BASE_DIR.parent / "bundle-builder" / "src" / "assets"
+ASSETS_DIR = BASE_DIR.parent / "bundle-builder-frontend" / "src" / "assets"
 
 app = FastAPI()
 

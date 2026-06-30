@@ -184,13 +184,13 @@ function App() {
       <ProductCard
         key={product.title}
         category={product.category}
-        discount={product.discount ?? 0}
+        discount={product.discount}
         title={product.title}
         description={product.description ?? ''}
         variants={product.variants ?? []}
         variant_images={product.variant_images ?? []}
         image={product.image ?? product.img ?? ''}
-        price={product.newprice ?? 0}
+        price={product.newprice}
         oldPrice={product.oldprice}
         isSelected={isProductSelected(product.title)}
         getVariantCount={(variant) => getVariantCount(product.title, variant)}
